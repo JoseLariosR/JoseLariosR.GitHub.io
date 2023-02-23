@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>RostiContacto</title>
+</head>
+<body>
+    
+        
+        
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <a href="index.html" class="logo">
+                                <img src="images/rostilogo.jpg" >
+                            </a>
+            
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a href="index.html" class="active">Inicio</a></li>
+                                   
+  
+                                <li class="submenu">
+                                    <a href="menu.html">menu</a>
+                                    <ul>
+                                        <li><a href="#offers">Menu adultos</a></li>
+                                        <li><a href="#offers">Menu niños</a></li>
+                                        <li><a href="#offers">menu grupos</a></li>
+                                    </ul>
+                                </li>
+                               
+                                <li class="scroll-to-section"><a href="tabla.html">Reservar</a></li> 
+                                <li class="scroll-to-section"><a href="contacto.html">Contactanos</a></li> 
+                                <li class="scroll-to-section"><a href="alacarta.html">A la carta</a></li> 
+                            </ul>        
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+
+
+  <section class="section" id="reservation">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 align-self-center">
+                <div class="left-text-content">
+                    <div class="section-heading">
+                        <h6>Contactanos</h6>
+                        <h2>Aqui puedes contactarnos y saber mas acerca de nuestros servicios y disponibilidad</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="phone">
+                                <i class="fa fa-phone"></i>
+                                <h4>Telefonos</h4>
+                                <span><a href="#">080-090-0990</a><br><a href="#">080-090-0880</a></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="message">
+                                <i class="fa fa-envelope"></i>
+                                <h4>Emails</h4>
+                                <span><a href="#">Desarrolloweb@RostiFood.com</a><br><a href="#">JoseLarios@RostiFood.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <form id="contact" action="" method="post">
+                      <div class="row">
+                        <div class="col-lg-12">
+                            <h4>Rellena con tus datos</h4>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                          <fieldset>
+                            <input name="name" type="text" id="name" placeholder="Nombre*" required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                          <fieldset>
+                          <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo electronico" required="">
+                        </fieldset>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                          <fieldset>
+                            <input name="phone" type="text" id="phone" placeholder="Numero de Telefono*" required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                          <fieldset>
+                            <select value="number-guests" name="number-guests" id="number-guests">
+                                <option value="number-guests">Numero de visitantes</option>
+                                <option name="1" id="1">1</option>
+                                <option name="2" id="2">2</option>
+                                <option name="3" id="3">3</option>
+                                <option name="4" id="4">4</option>
+                                <option name="5" id="5">5</option>
+                                <option name="6" id="6">6</option>
+                                <option name="7" id="7">7</option>
+                                <option name="8" id="8">8</option>
+                                <option name="9" id="9">9</option>
+                                <option name="10" id="10">10</option>
+                                <option name="11" id="11">11</option>
+                                <option name="12" id="12">12</option>
+                            </select>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="filterDate2">    
+                              <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/aaaa">
+                                <div class="input-group-addon" >
+                                  <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                              </div>
+                            </div>   
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                          <fieldset>
+                            <select value="time" name="time" id="time">
+                                <option value="time">Hora</option>
+                                <option name="Breakfast" id="Breakfast">Breakfast</option>
+                                <option name="Lunch" id="Lunch">Lunch</option>
+                                <option name="Dinner" id="Dinner">Dinner</option>
+                            </select>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                          <fieldset>
+                            <textarea name="message" rows="6" id="message" placeholder="Mensaje" required=""></textarea>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                          <fieldset>
+                            <button type="submit" id="form-submit" class="main-button-icon">Enviar peticion</button>
+                          </fieldset>
+                        </div>
+                      </div>
+                      <h4>Nos ubicamos en</h4>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13786.10029048366!2d-84.27361272511455!3d10.352836490889022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1676948642854!5m2!1ses!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>		
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xs-12">
+                <div class="right-text-content">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="logo">
+                    <a href="index.html"><img src="images/rostilogo.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+                <div class="left-text-content">
+                    <p>© Copyright RostiFood.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
